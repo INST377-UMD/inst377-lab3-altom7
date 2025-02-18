@@ -1,0 +1,78 @@
+
+.main-header, .main-footer {
+    background-color: #4CAF50; 
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+
+.main-content {
+    width: 70%;
+    padding: 20px;
+}
+
+
+.form-label {
+    display: block; 
+    width: fit-content; 
+    padding: 5px 10px; 
+    margin-bottom: 5px; 
+}
+
+
+.sidebar {
+    width: 30%;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+
+.sidebar:hover {
+    background-color: yellow;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+input[type="text"]:focus {
+    width: 200px;
+    transition: width 0.3s;
+}
+
+
+
+.nav-menu {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    text-align: left; 
+    background-color: blue;
+}
+
+.nav-menu li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+.nav-menu a {
+    text-decoration: none; /
+    color: orange; 
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    color: red; 
+}
